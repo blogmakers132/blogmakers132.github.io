@@ -1,8 +1,8 @@
 # Site settings
 title: 솹핑
 description: '쇼핑'
-url: 'blogmakers132.github.io/jekyll-uno'
-baseurl: '/jekyll-uno'
+url: 'https://blogmakers132.github.io/'
+baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 # disable_landing_page: true
@@ -41,4 +41,4 @@ kramdown:
   hard_wrap: false
 
 plugins: ['jekyll-paginate']
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png', 'node_modules', 'vendor/bundle/', 'vendor/cache/', 'vendor/gems/', 'vendor/ruby/', 'any_additional_item ']
